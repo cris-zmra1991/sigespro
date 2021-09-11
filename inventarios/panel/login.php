@@ -1,5 +1,5 @@
 <?php
-require '../base.php';
+require '../../base.php';
 $errores = "";
 $comp = $database->select("config","*");
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
